@@ -1,16 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# APPDEV1 Final Practical Exam
+## Reflection
+Ok, so here's the thing, before this practical exam, I, Was, Anxious, so anxious to the point where I would always ask my friends and classmates and ask them "Guysss nagreview naba kayoo?" over and over and over and over. I was so anxious to the point where I just given up, I literrally stop thinking about it and I just stared at the trees and greeny leafs, chatting with my friends about our fate, and even talking about which schools we should move in to. It, Was, Horrible. But here I am, Thank God, I finished this practical exam, and im even writing this reflection as of this moment, im literally typing this by hand. What I did do during this practical exam is of course, I prayed, hoping that I could at least finish 75 percent of this practical exam, but then the next thing I did is that I just stopped worrying and just did what I had to do, finish this exam. I did encounter some problems along the way, the most major for me is that when I tried to run a command line that lets u install tailwind and shadcn/ui or whatever, it didnt work. Of course I blamed my macbook being a macbook running MacOS Tahoe, and while i was debugging this and resorting to the "manual" way of creating those files by hand, I thought to myself that maybe, I shouldve kept my other laptop running Linux Mint, because while i was debugging this, i noticed that it wouldnt load whilst running npm run dev, so I just asked AI over and over and begging them to pleaseee, PLEASEE FIX THE BUG, and voila, it got fixed. So yeah, Thanks be to God for this wonderful opportunity to do this practical exam, It's been a while since i had this roller coaster of emotions. 
