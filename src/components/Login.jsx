@@ -3,6 +3,7 @@ import styles from './Login.module.css';
 import blossomImage from '../assets/blossom-flower.svg';
 import googleIcon from '../assets/icons-google-logo.svg';
 import appleIcon from '../assets/icons-apple-logo.svg';
+import { Input } from "@/components/ui/input";
 
 const Login = () => {
   return (
@@ -18,7 +19,7 @@ const Login = () => {
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.inputGroup}>
               <label className={styles.label}>Email address</label>
-              <input
+              <Input
                 type="email"
                 className={styles.input}
                 placeholder="Enter your email"
@@ -32,7 +33,7 @@ const Login = () => {
                   forgot password
                 </a>
               </div>
-              <input
+              <Input
                 type="password"
                 className={styles.input}
                 placeholder="Enter your password"
