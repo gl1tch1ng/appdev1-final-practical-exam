@@ -73,7 +73,7 @@ const Login = () => {
           {/* Bottom Link Text */}
           <div className={styles.bottomTextContainer}>
             <p className={styles.bottomText}>
-              Have an account? <span className={styles.signInLink}>Sign In</span>
+              Don’t have an account? <span className={styles.signInLink}>Sign Up</span>
             </p>
           </div>
         </div>
