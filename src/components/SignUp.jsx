@@ -5,8 +5,12 @@ import blossomImage from '../assets/blossom-flower.svg';
 const SignUp = () => {
   return (
     <div className={styles.container}>
-      {/* Left Section (Empty for now) */}
-      <div className={styles.leftSection}></div>
+      {/* Left Section */}
+      <div className={styles.leftSection}>
+        <div className={styles.formContainer}>
+          <h1 className={styles.title}>Get Started Now</h1>
+        </div>
+      </div>
 
       {/* Right Section */}
       <div className={styles.rightSection}>
