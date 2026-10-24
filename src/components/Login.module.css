@@ -1,0 +1,193 @@
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.leftSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 384px; /* Matches Figma w-96 */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input {
+  width: 100%;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d8;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+
+.input::placeholder {
+  color: #d4d4d8;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.checkbox {
+  width: 12px;
+  height: 12px;
+  accent-color: #000000;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  color: #000000;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 36px;
+  background-color: #3a5b22;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Divider Styles */
+.dividerContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+
+.dividerText {
+  padding: 0 8px;
+  color: #000000;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Social Buttons Styles */
+.socialContainer {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.socialBtn {
+  flex: 1;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  border: 1px solid #d4d4d8;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.socialIcon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Bottom Text Styles */
+.bottomTextContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.bottomText {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signInLink {
+  color: #1d4ed8; /* blue-700 / #0F3CDE */
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.rightSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.blossomImage {
+  width: 100%;
+  max-width: 828px;
+  max-height: 936px;
+  object-fit: contain;
+}
