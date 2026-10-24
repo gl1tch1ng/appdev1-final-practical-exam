@@ -24,10 +24,87 @@
 
 .title {
   color: #000000;
-  font-size: 30px; /* text-3xl */
-  font-weight: 500; /* font-medium */
+  font-size: 30px;
+  font-weight: 500;
   font-family: 'Poppins', sans-serif;
   margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input {
+  width: 100%;
+  height: 32px; /* Figma h-8 */
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d8; /* outline-zinc-300 */
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+
+.input::placeholder {
+  color: #d4d4d8; /* text-zinc-300 */
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.checkbox {
+  width: 12px;
+  height: 12px;
+  accent-color: #000000;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  color: #000000;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 36px; /* Figma h-9 */
+  background-color: #3a5b22; /* lime-900 / #3A5B22 */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
 }
 
 .rightSection {

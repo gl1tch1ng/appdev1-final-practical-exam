@@ -9,6 +9,46 @@ const SignUp = () => {
       <div className={styles.leftSection}>
         <div className={styles.formContainer}>
           <h1 className={styles.title}>Get Started Now</h1>
+
+          <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
+            <div className={styles.inputGroup}>
+              <label className={styles.label}>Name</label>
+              <input
+                type="text"
+                className={styles.input}
+                placeholder="Enter your name"
+              />
+            </div>
+
+            <div className={styles.inputGroup}>
+              <label className={styles.label}>Email address</label>
+              <input
+                type="email"
+                className={styles.input}
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div className={styles.inputGroup}>
+              <label className={styles.label}>Password</label>
+              <input
+                type="password"
+                className={styles.input}
+                placeholder="Enter your password"
+              />
+            </div>
+
+            <div className={styles.checkboxGroup}>
+              <input type="checkbox" id="terms" className={styles.checkbox} />
+              <label htmlFor="terms" className={styles.checkboxLabel}>
+                I agree to the <span className={styles.underline}>terms & policy</span>
+              </label>
+            </div>
+
+            <button type="submit" className={styles.submitBtn}>
+              Signup
+            </button>
+          </form>
         </div>
       </div>
 
