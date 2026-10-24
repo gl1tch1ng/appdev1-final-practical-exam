@@ -10,7 +10,10 @@ const Login = () => {
       {/* Left Section */}
       <div className={styles.leftSection}>
         <div className={styles.formContainer}>
-          <h1 className={styles.title}>Get Started Now</h1>
+          <h1 className={styles.title}>Welcome back!</h1>
+          <p className={styles.subtitle}>
+            Enter your Credentials to access your account
+          </p>
 
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.inputGroup}>
