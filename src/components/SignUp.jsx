@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './SignUp.module.css';
 import blossomImage from '../assets/blossom-flower.svg';
+import googleIcon from '../assets/icons-google-logo.svg';
+import appleIcon from '../assets/icons-apple-logo.svg';
 
 const SignUp = () => {
   return (
@@ -49,6 +51,32 @@ const SignUp = () => {
               Signup
             </button>
           </form>
+
+          {/* Divider */}
+          <div className={styles.dividerContainer}>
+            <div className={styles.dividerLine}></div>
+            <span className={styles.dividerText}>Or</span>
+            <div className={styles.dividerLine}></div>
+          </div>
+
+          {/* Social Sign In Buttons */}
+          <div className={styles.socialContainer}>
+            <button type="button" className={styles.socialBtn}>
+              <img src={googleIcon} alt="Google" className={styles.socialIcon} />
+              <span>Sign in with Google</span>
+            </button>
+            <button type="button" className={styles.socialBtn}>
+              <img src={appleIcon} alt="Apple" className={styles.socialIcon} />
+              <span>Sign in with Apple</span>
+            </button>
+          </div>
+
+          {/* Bottom Link Text */}
+          <div className={styles.bottomTextContainer}>
+            <p className={styles.bottomText}>
+              Have an account? <span className={styles.signInLink}>Sign In</span>
+            </p>
+          </div>
         </div>
       </div>
 
