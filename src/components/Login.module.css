@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .leftSection {
@@ -23,18 +23,18 @@
 }
 
 .title {
-  color: #000000;
-  font-size: 30px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
   margin: 0;
 }
 
 .subtitle {
-  color: #000000;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-subtitle);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
   margin: 0;
 }
 
@@ -60,35 +60,35 @@
 }
 
 .label {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
 }
 
 .forgotLink {
-  color: #1e3a8a; /* text-blue-900 / #0F3CDE */
-  font-size: 10px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-blue-dark);
+  font-size: var(--font-size-input);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
   text-decoration: none;
 }
 
 .input {
   width: 100%;
-  height: 32px;
+  height: var(--height-input);
   padding: 0 10px;
-  border-radius: 10px;
-  border: 1px solid #d4d4d8;
+  border-radius: var(--border-radius-main);
+  border: 1px solid var(--color-gray-border);
   outline: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 10px;
+  font-family: var(--font-main);
+  font-size: var(--font-size-input);
 }
 
 .input::placeholder {
-  color: #d4d4d8;
-  font-size: 10px;
-  font-weight: 500;
+  color: var(--color-gray-border);
+  font-size: var(--font-size-input);
+  font-weight: var(--font-weight-medium);
 }
 
 .checkboxGroup {
@@ -100,27 +100,27 @@
 .checkbox {
   width: 12px;
   height: 12px;
-  accent-color: #000000;
+  accent-color: var(--color-black);
   cursor: pointer;
 }
 
 .checkboxLabel {
-  color: #000000;
-  font-size: 9px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
 }
 
 .submitBtn {
   width: 100%;
-  height: 36px;
-  background-color: #3a5b22;
-  color: #ffffff;
+  height: var(--height-btn);
+  background-color: var(--color-green-dark);
+  color: var(--color-white);
   border: none;
-  border-radius: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  border-radius: var(--border-radius-main);
+  font-family: var(--font-main);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-bold);
   cursor: pointer;
 }
 
@@ -134,16 +134,16 @@
 .dividerLine {
   flex: 1;
   height: 1px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #e5e5e5;
+  background-color: var(--color-gray-bg);
+  border-top: 1px solid var(--color-gray-border);
 }
 
 .dividerText {
   padding: 0 8px;
-  color: #000000;
-  font-size: 9px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
 }
 
 .socialContainer {
@@ -154,19 +154,19 @@
 
 .socialBtn {
   flex: 1;
-  height: 32px;
+  height: var(--height-input);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   background-color: transparent;
-  border: 1px solid #d4d4d8;
-  border-radius: 10px;
+  border: 1px solid var(--color-gray-border);
+  border-radius: var(--border-radius-main);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  color: #000000;
+  font-family: var(--font-main);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-black);
 }
 
 .socialIcon {
@@ -181,16 +181,16 @@
 }
 
 .bottomText {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-main);
 }
 
 .signInLink {
-  color: #1d4ed8;
+  color: var(--color-blue-dark);
   cursor: pointer;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
 }
 
 .rightSection {

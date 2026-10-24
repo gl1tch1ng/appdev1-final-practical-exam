@@ -1,0 +1,31 @@
+:root {
+  /* Color Palette (From Figma Tailwind Specs) */
+  --color-black: #000000;
+  --color-blue-dark: #0f3cde;
+  --color-blue-primary: #1976d2;
+  --color-green-dark: #3a5b22;
+  --color-green-light: #4caf50;
+  --color-gray-border: #d4d4d8;
+  --color-gray-bg: #f5f5f5;
+  --color-orange: #ff3d00;
+  --color-yellow: #ffc107;
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-main: 'Poppins', sans-serif;
+  
+  --font-size-title: 30px;
+  --font-size-subtitle: 16px;
+  --font-size-label: 14px;
+  --font-size-btn: 12px;
+  --font-size-input: 10px;
+  --font-size-small: 9px;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Layout & Sizing */
+  --border-radius-main: 10px;
+  --height-input: 32px;
+  --height-btn: 36px;
+}
