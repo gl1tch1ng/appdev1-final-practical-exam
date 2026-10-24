@@ -17,15 +17,6 @@ const Login = () => {
 
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.inputGroup}>
-              <label className={styles.label}>Name</label>
-              <input
-                type="text"
-                className={styles.input}
-                placeholder="Enter your name"
-              />
-            </div>
-
-            <div className={styles.inputGroup}>
               <label className={styles.label}>Email address</label>
               <input
                 type="email"
@@ -35,7 +26,12 @@ const Login = () => {
             </div>
 
             <div className={styles.inputGroup}>
-              <label className={styles.label}>Password</label>
+              <div className={styles.labelHeader}>
+                <label className={styles.label}>Password</label>
+                <a href="#forgot" className={styles.forgotLink}>
+                  forgot password
+                </a>
+              </div>
               <input
                 type="password"
                 className={styles.input}
@@ -44,14 +40,14 @@ const Login = () => {
             </div>
 
             <div className={styles.checkboxGroup}>
-              <input type="checkbox" id="terms" className={styles.checkbox} />
-              <label htmlFor="terms" className={styles.checkboxLabel}>
-                I agree to the <span className={styles.underline}>terms & policy</span>
+              <input type="checkbox" id="remember" className={styles.checkbox} />
+              <label htmlFor="remember" className={styles.checkboxLabel}>
+                Remember for 30 days
               </label>
             </div>
 
             <button type="submit" className={styles.submitBtn}>
-              Signup
+              Login
             </button>
           </form>
 
