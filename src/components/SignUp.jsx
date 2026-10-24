@@ -3,6 +3,7 @@ import styles from './SignUp.module.css';
 import blossomImage from '../assets/blossom-flower.svg';
 import googleIcon from '../assets/icons-google-logo.svg';
 import appleIcon from '../assets/icons-apple-logo.svg';
+import { Input } from "@/components/ui/input";
 
 const SignUp = () => {
   return (
@@ -15,7 +16,7 @@ const SignUp = () => {
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.inputGroup}>
               <label className={styles.label}>Name</label>
-              <input
+              <Input
                 type="text"
                 className={styles.input}
                 placeholder="Enter your name"
@@ -24,7 +25,7 @@ const SignUp = () => {
 
             <div className={styles.inputGroup}>
               <label className={styles.label}>Email address</label>
-              <input
+              <Input
                 type="email"
                 className={styles.input}
                 placeholder="Enter your email"
@@ -33,7 +34,7 @@ const SignUp = () => {
 
             <div className={styles.inputGroup}>
               <label className={styles.label}>Password</label>
-              <input
+              <Input
                 type="password"
                 className={styles.input}
                 placeholder="Enter your password"
